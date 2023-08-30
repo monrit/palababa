@@ -20,7 +20,7 @@ const sendMessage = text => {
         body: JSON.stringify(payload)
     })
         .then(response => response.json())
-        .then(data => window.location.href = window.location.origin + "/thankyou.html")
+        .then(data => window.location.href = window.location.origin + "/palababa/thankyou.html")
         .catch(error => alert("Сталася якась помилка, спробуйте ще раз)"));
 };
 
